@@ -32,6 +32,8 @@ nombre
  1 != 1 False   distinto
  1 != 2 true    distinto 
 
+
+ 
  
 
 
