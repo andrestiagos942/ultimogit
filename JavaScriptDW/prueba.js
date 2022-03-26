@@ -13,7 +13,7 @@ var cadena2 = "jau ar shu ?"
 var separador = " "
 var resultadoej2= cadena1 + separador + cadena2 
 console.log(resultadoej2)
-
+ 
 // Ejemplo 3 guarda variable
 
 var nombre = prompt("escribi tu nombre")
