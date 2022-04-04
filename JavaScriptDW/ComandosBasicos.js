@@ -67,3 +67,12 @@ nombre
     }
     // for each con alert
     nombres.forEach(alert)
+
+//  CLASE 50  objetos
+
+// objeto se compone de "valor:propiedad,"
+
+    var objeto = {clave1:"valor1", clave2:123, clave3: "coche"}
+    for (clave in objeto)
+    console.log(clave)
+    console.log(objeto[objeto])
