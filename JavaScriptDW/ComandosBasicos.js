@@ -24,13 +24,13 @@ nombre
 //  CLASE 43 - operadores 
 // Comparaciones "true y false"
 
- 1 == 1 true
- 1 == 2 false
- 1 > 4 False
- 1 < 4 true 
- 4 >= 4 true
- 1 != 1 False   distinto
- 1 != 2 true    distinto 
+//1 == 1 true
+//1 == 2 false
+// 1 > 4 False
+// 1 < 4 true 
+// 4 >= 4 true
+// 1 != 1 False   distinto
+// 1 != 2 true    distinto 
 
 
  
