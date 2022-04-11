@@ -14,21 +14,26 @@ if (operacion == "+"){
     //se realiza la op de suma numero 1 y 2
     resultado = numero1 + numero2;
     texto = "la suma de " + numero1 + " y " + numero2 + "es igual a " + resultado;
-    } else if (operacion == "-"){
-    //se realiza la op de suma numero 1 y 2
+    } 
+    
+    else if (operacion == "-"){
+    //se realiza la op de la resta de  numero 1 y 2
     resultado = numero1 - numero2;
     texto = "la resta de " + numero1 + " y " + numero2 + " es igual a " + resultado;
     } else if (operacion == "*"){
-        //se realiza la op de suma numero 1 y 2
+        //se realiza la op de la multplic de  numero 1 y 2
         resultado = numero1 * numero2;
         texto = "la multplic de " + numero1 + " y " + numero2 + " es igual a " + resultado;
     } else if (operacion == "/"){
-        //se realiza la op de suma numero 1 y 2
+        //se realiza la op de la division de numero 1 y 2
         resultado = numero1 / numero2;
         texto = "la division de " + numero1 + " y " + numero2 + " es igual a " + resultado;
-    } else if (operacion == "/"){
+    } else {
         texto = "Volve a la cancha bobo";
     }
+
+    alert(texto)
+    console.log(texto);
 
 
 
