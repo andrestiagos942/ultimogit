@@ -72,7 +72,30 @@ nombre
 
 // objeto se compone de "valor:propiedad,"
 
-    var objeto = {clave1:"valor1", clave2:123, clave3: "coche"}
-    for (clave in objeto)
-    console.log(clave)
-    console.log(objeto[objeto])
+var objeto = {clave1:"valor1", clave2:123, clave3: "coche"}
+for (clave in objeto)
+console.log(clave)
+console.log(objeto[objeto])
+
+// Metodo de los objetos 
+// ejemplo 1 objeto con alert texto
+
+var objeto2 = {
+color:"rojo",
+numero: 35,  
+metodo: function(){
+    alert("esta es la funcion del objeto");
+}
+}
+
+objeto2.metodo()
+
+// ejemplo 2 objeto con alert concatenando info del objeto
+
+var objeto2 = {
+color:"rojo",
+numero: 35,  
+metodo: function(){
+    alert("el color es " + this.color + " y el numero es " + this.numero);
+}
+}
