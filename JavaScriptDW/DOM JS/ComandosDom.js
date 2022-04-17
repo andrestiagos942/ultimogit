@@ -17,3 +17,11 @@ parrafo.textContent = "esto es un texto nuevo para este parrafo";
 'esto es un texto nuevo para este parrafo'
 // Editar Html en un parrafo
 parrafo.innerHTML = "esto es un parrafo con algo en <b>negrita<b>";
+
+// Clase 67
+// declarar variables p 
+var parrafo = document.querySelector("p");
+var enlace = parrafo.querySelector("a");
+enlace.text = "tuseñora";
+enlace.getAttribute("href")
+enlace.setAttribute("href","tuseñora.com")
