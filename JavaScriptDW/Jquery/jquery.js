@@ -33,4 +33,11 @@ var formulario = $('input');
 formulario.eq(0).val('introduce tu nombre');
 formulario.eq(0).attr('type','password');
 
-
+// clase 72 aplicar una clase a un elemento html
+var parrafo = $('p')
+// agrega la clase
+parrafo.addClass('estilo1');
+// quita la clase
+parrafo.removeClass('estilo1');
+// cada vez que invocas cambia add o remove
+parrafo.toggleClass('estilo1');
