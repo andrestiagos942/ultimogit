@@ -23,7 +23,3 @@ titular3.addEventListener("click", function(){
     titular3.style.color = "red";
 })
 
-titular3.addEventListener("click", function(){
-    titular3.textContent = "gracoas por clickear2";
-    titular3.style.color = "green";
-})
